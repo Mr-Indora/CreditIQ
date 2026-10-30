@@ -1,0 +1,26 @@
+table,column,non_null,sentinel_365243,positive_values,positive_share,treatment
+application_train,DAYS_BIRTH,307511,0,0,0.0,Consistent with convention (<= 0); not independently verifiable
+application_train,DAYS_EMPLOYED,307511,55374,0,0.0,Sentinel 365243 -> NaN + DAYS_EMPLOYED_ANOM flag
+application_train,DAYS_REGISTRATION,307511,0,0,0.0,Consistent with convention (<= 0); not independently verifiable
+application_train,DAYS_ID_PUBLISH,307511,0,0,0.0,Consistent with convention (<= 0); not independently verifiable
+application_train,DAYS_LAST_PHONE_CHANGE,307510,0,0,0.0,Consistent with convention (<= 0); not independently verifiable
+application_test,DAYS_BIRTH,48744,0,0,0.0,Consistent with convention (<= 0); not independently verifiable
+application_test,DAYS_EMPLOYED,48744,9274,0,0.0,Sentinel 365243 -> NaN + DAYS_EMPLOYED_ANOM flag
+application_test,DAYS_REGISTRATION,48744,0,0,0.0,Consistent with convention (<= 0); not independently verifiable
+application_test,DAYS_ID_PUBLISH,48744,0,0,0.0,Consistent with convention (<= 0); not independently verifiable
+application_test,DAYS_LAST_PHONE_CHANGE,48744,0,0,0.0,Consistent with convention (<= 0); not independently verifiable
+bureau,DAYS_CREDIT,1716428,0,0,0.0,Consistent with convention (<= 0); not independently verifiable
+bureau,DAYS_CREDIT_ENDDATE,1610875,0,602603,0.374084,"Planned end date, contractually known at application -> not used directly (excluded from aggregation)"
+bureau,DAYS_ENDDATE_FACT,1082775,0,0,0.0,Positive values nulled in sql/bureau.sql (actual closing date after application = post-application info)
+bureau,DAYS_CREDIT_UPDATE,1716428,0,17,1e-05,Rows with positive offset filtered in sql/*.sql
+bureau_balance,MONTHS_BALANCE,27299925,0,0,0.0,Consistent with convention (<= 0); not independently verifiable
+previous_application,DAYS_DECISION,1670214,0,0,0.0,Consistent with convention (<= 0); not independently verifiable
+previous_application,DAYS_FIRST_DRAWING,997149,934444,0,0.0,Consistent with convention (<= 0); not independently verifiable
+previous_application,DAYS_FIRST_DUE,997149,40645,0,0.0,Consistent with convention (<= 0); not independently verifiable
+previous_application,DAYS_LAST_DUE_1ST_VERSION,997149,93864,224392,0.225034,Rows with positive offset filtered in sql/*.sql
+previous_application,DAYS_LAST_DUE,997149,211221,0,0.0,Consistent with convention (<= 0); not independently verifiable
+previous_application,DAYS_TERMINATION,997149,225913,0,0.0,Consistent with convention (<= 0); not independently verifiable
+POS_CASH_balance,MONTHS_BALANCE,10001358,0,0,0.0,Consistent with convention (<= 0); not independently verifiable
+installments_payments,DAYS_INSTALMENT,13605401,0,0,0.0,Consistent with convention (<= 0); not independently verifiable
+installments_payments,DAYS_ENTRY_PAYMENT,13602496,0,0,0.0,Consistent with convention (<= 0); not independently verifiable
+credit_card_balance,MONTHS_BALANCE,3840312,0,0,0.0,Consistent with convention (<= 0); not independently verifiable

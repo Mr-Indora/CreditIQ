@@ -1,0 +1,20 @@
+{
+  "total_applicants": 61503,
+  "historical_positive_label_count": 4965,
+  "historical_target_rate_observed": 0.08072776937710356,
+  "average_predicted_pd_model_estimate": 0.08011977348841133,
+  "high_risk_population_pct": 0.14085491764629368,
+  "risk_segment_distribution": {
+    "LOW": 0.5169991707721574,
+    "MEDIUM": 0.3421459115815489,
+    "HIGH": 0.10438515194380762,
+    "VERY_HIGH": 0.03646976570248606
+  },
+  "model_performance": {
+    "roc_auc": 0.7822682047173256,
+    "pr_auc": 0.27779828267238826,
+    "ks": 0.4265751804604,
+    "brier": 0.06606389701222985
+  },
+  "note": "Computed on the holdout test set; observed rates and predicted PDs are distinct quantities."
+}

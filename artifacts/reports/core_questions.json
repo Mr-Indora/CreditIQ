@@ -1,0 +1,25 @@
+[
+  {
+    "question": "Is income distributed differently between target groups?",
+    "feature": "AMT_INCOME_TOTAL",
+    "p_holm": 2.441105293176851e-17,
+    "effect_size": -0.04226039090268152,
+    "practical_significance": "negligible",
+    "answer": "Statistically significant; effect is negligible. Association only - not causal."
+  },
+  {
+    "question": "Is previous credit behaviour associated with repayment difficulties?",
+    "feature": "LATE_PAYMENT_RATIO",
+    "answer": "feature unavailable"
+  },
+  {
+    "question": "Does employment duration show an association with the target?",
+    "feature": "EMPLOYMENT_DURATION_DAYS",
+    "answer": "feature unavailable"
+  },
+  {
+    "question": "Do financial burden ratios differ?",
+    "feature": "ANNUITY_INCOME_RATIO",
+    "answer": "feature unavailable"
+  }
+]

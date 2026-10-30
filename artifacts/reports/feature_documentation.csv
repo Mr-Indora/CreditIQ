@@ -1,0 +1,18 @@
+feature,formula,inputs,business_meaning,missing_handling
+CREDIT_INCOME_RATIO,AMT_CREDIT / AMT_INCOME_TOTAL,"AMT_CREDIT, AMT_INCOME_TOTAL",Loan size relative to annual income,NaN if income<=0
+ANNUITY_INCOME_RATIO,AMT_ANNUITY / AMT_INCOME_TOTAL,"AMT_ANNUITY, AMT_INCOME_TOTAL",Repayment burden vs income,NaN if income<=0
+CREDIT_ANNUITY_RATIO,AMT_CREDIT / AMT_ANNUITY,"AMT_CREDIT, AMT_ANNUITY",Implied loan term in payment periods,NaN if annuity<=0
+INCOME_PER_PERSON,AMT_INCOME_TOTAL / CNT_FAM_MEMBERS,"AMT_INCOME_TOTAL, CNT_FAM_MEMBERS",Household income per member,NaN if members<=0
+EMPLOYMENT_DURATION_DAYS,-DAYS_EMPLOYED (365243 sentinel -> NaN),DAYS_EMPLOYED,Length of current employment,Sentinel -> NaN + DAYS_EMPLOYED_ANOM flag
+EMPLOYMENT_AGE_RATIO,DAYS_EMPLOYED / DAYS_BIRTH,"DAYS_EMPLOYED, DAYS_BIRTH",Share of life employed,NaN where employment unknown
+AGE_YEARS,-DAYS_BIRTH / 365.25,DAYS_BIRTH,Applicant age at application,n/a
+ACTIVE_CREDIT_RATIO,active bureau credits / all bureau credits,bureau.CREDIT_ACTIVE,Share of currently open external credits,NaN if no bureau record
+PREVIOUS_APPROVAL_RATIO,approved prev. apps / all prev. apps,previous_application.NAME_CONTRACT_STATUS,Historical approval propensity,NaN if no history
+AVERAGE_CREDIT_DEBT,mean(AMT_CREDIT_SUM_DEBT),bureau,Average outstanding external debt,NaN if no bureau
+OVERDUE_ACCOUNT_RATIO,share of bureau credits with overdue days/amount,bureau,Overdue incidence,NaN if no bureau
+LATE_PAYMENT_RATIO,share of instalments paid after due date,installments_payments,Payment punctuality,NaN if no instalments
+AVERAGE_PAYMENT_DELAY,mean(DAYS_ENTRY_PAYMENT - DAYS_INSTALMENT),installments_payments,Avg days late (negative = early),NaN if none
+MAX_PAYMENT_DELAY,max(DAYS_ENTRY_PAYMENT - DAYS_INSTALMENT),installments_payments,Worst lateness,NaN if none
+INSTALLMENT_PAYMENT_RATIO,sum(paid)/sum(due),installments_payments,Paid vs due amount,NaN if none
+AVERAGE_CREDIT_UTILIZATION,mean(balance / limit),credit_card_balance,Card utilisation,NaN if no card or limit=0
+MAX_CREDIT_UTILIZATION,max(balance / limit),credit_card_balance,Peak card utilisation,NaN if no card

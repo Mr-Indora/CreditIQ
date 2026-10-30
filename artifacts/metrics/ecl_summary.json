@@ -1,0 +1,48 @@
+{
+  "scenario_total": {
+    "optimistic": 684102537.0833461,
+    "base": 1231384566.7500231,
+    "conservative": 1778666596.4167
+  },
+  "by_band": [
+    {
+      "RISK_BAND": "HIGH",
+      "applicants": 6420,
+      "ead": 3391448320.0,
+      "ecl_optimistic": 174664658.78991395,
+      "ecl_base": 314396385.8218451,
+      "ecl_conservative": 454128112.8537763
+    },
+    {
+      "RISK_BAND": "LOW",
+      "applicants": 31797,
+      "ead": 20032577536.0,
+      "ecl_optimistic": 137442773.19651547,
+      "ecl_base": 247396991.75372785,
+      "ecl_conservative": 357351210.3109402
+    },
+    {
+      "RISK_BAND": "MEDIUM",
+      "applicants": 21043,
+      "ead": 12243962880.0,
+      "ecl_optimistic": 260713949.83594382,
+      "ecl_base": 469285109.70469886,
+      "ecl_conservative": 677856269.5734539
+    },
+    {
+      "RISK_BAND": "VERY_HIGH",
+      "applicants": 2243,
+      "ead": 1097091072.0,
+      "ecl_optimistic": 111281155.2609729,
+      "ecl_base": 200306079.4697512,
+      "ecl_conservative": 289331003.67852956
+    }
+  ],
+  "total_ead": 36765081600.0,
+  "ecl_rate_of_ead": {
+    "optimistic": 0.018607398849982318,
+    "base": 0.03349331792996818,
+    "conservative": 0.04837923700995403
+  },
+  "note": "Scenario estimates under assumed LGDs; not actual realised losses."
+}

@@ -1,0 +1,9 @@
+table,exists,non_empty,required_columns_ok,missing_columns
+application_train,True,True,True,[]
+application_test,True,True,True,[]
+bureau,True,True,True,[]
+bureau_balance,True,True,True,[]
+previous_application,True,True,True,[]
+POS_CASH_balance,True,True,True,[]
+installments_payments,True,True,True,[]
+credit_card_balance,True,True,True,[]

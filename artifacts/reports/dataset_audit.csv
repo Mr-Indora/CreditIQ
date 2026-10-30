@@ -1,0 +1,9 @@
+table,rows,columns,missing_cells,missing_pct,duplicate_key_rows,primary_key,foreign_keys,cardinality,business_meaning
+application_train,307511,122,9152465,24.4,0,SK_ID_CURR,-,1 row per applicant,Loan application snapshot + TARGET (repayment difficulties label)
+application_test,48744,121,1404419,23.81,0,SK_ID_CURR,-,1 row per applicant,Unlabelled applications (competition inference only)
+bureau,1716428,17,3939947,13.5,0,SK_ID_BUREAU,SK_ID_CURR -> application,many per applicant,Credits reported by other institutions
+bureau_balance,27299925,3,0,0.0,0,"(SK_ID_BUREAU, MONTHS_BALANCE)",SK_ID_BUREAU -> bureau,many per bureau credit,Monthly status history of bureau credits
+previous_application,1670214,37,11109336,17.98,0,SK_ID_PREV,SK_ID_CURR -> application,many per applicant,Earlier Home Credit applications
+POS_CASH_balance,10001358,8,52158,0.07,0,"(SK_ID_PREV, MONTHS_BALANCE)",SK_ID_PREV -> previous_application; SK_ID_CURR,many per previous loan,Monthly POS/cash loan balance snapshots
+installments_payments,13605401,8,5810,0.01,653483,-,SK_ID_PREV -> previous_application; SK_ID_CURR,many per previous loan,Repayment history of previous loans
+credit_card_balance,3840312,23,5877356,6.65,0,"(SK_ID_PREV, MONTHS_BALANCE)",SK_ID_PREV -> previous_application; SK_ID_CURR,many per previous card,Monthly credit-card balance snapshots

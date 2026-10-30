@@ -1,0 +1,8 @@
+check,violations
+bureau.SK_ID_CURR in application,0
+bureau_balance.SK_ID_BUREAU in bureau,3120184
+previous_application.SK_ID_CURR in application,0
+POS.SK_ID_PREV in previous_application,340561
+installments.SK_ID_PREV in previous_application,1250826
+credit_card.SK_ID_PREV in previous_application,1082816
+train/test applicant overlap,0

@@ -1,0 +1,340 @@
+column_name,column_type,table,missing_pct,rows,description
+SK_ID_CURR,BIGINT,application_train,0.0,307511,
+TARGET,BIGINT,application_train,0.0,307511,
+NAME_CONTRACT_TYPE,VARCHAR,application_train,0.0,307511,
+CODE_GENDER,VARCHAR,application_train,0.0,307511,
+FLAG_OWN_CAR,VARCHAR,application_train,0.0,307511,
+FLAG_OWN_REALTY,VARCHAR,application_train,0.0,307511,
+CNT_CHILDREN,BIGINT,application_train,0.0,307511,
+AMT_INCOME_TOTAL,DOUBLE,application_train,0.0,307511,
+AMT_CREDIT,DOUBLE,application_train,0.0,307511,
+AMT_ANNUITY,DOUBLE,application_train,0.0,307511,
+AMT_GOODS_PRICE,DOUBLE,application_train,0.09,307511,
+NAME_TYPE_SUITE,VARCHAR,application_train,0.42,307511,
+NAME_INCOME_TYPE,VARCHAR,application_train,0.0,307511,
+NAME_EDUCATION_TYPE,VARCHAR,application_train,0.0,307511,
+NAME_FAMILY_STATUS,VARCHAR,application_train,0.0,307511,
+NAME_HOUSING_TYPE,VARCHAR,application_train,0.0,307511,
+REGION_POPULATION_RELATIVE,DOUBLE,application_train,0.0,307511,
+DAYS_BIRTH,BIGINT,application_train,0.0,307511,
+DAYS_EMPLOYED,BIGINT,application_train,0.0,307511,
+DAYS_REGISTRATION,DOUBLE,application_train,0.0,307511,
+DAYS_ID_PUBLISH,BIGINT,application_train,0.0,307511,
+OWN_CAR_AGE,DOUBLE,application_train,65.99,307511,
+FLAG_MOBIL,BIGINT,application_train,0.0,307511,
+FLAG_EMP_PHONE,BIGINT,application_train,0.0,307511,
+FLAG_WORK_PHONE,BIGINT,application_train,0.0,307511,
+FLAG_CONT_MOBILE,BIGINT,application_train,0.0,307511,
+FLAG_PHONE,BIGINT,application_train,0.0,307511,
+FLAG_EMAIL,BIGINT,application_train,0.0,307511,
+OCCUPATION_TYPE,VARCHAR,application_train,31.35,307511,
+CNT_FAM_MEMBERS,DOUBLE,application_train,0.0,307511,
+REGION_RATING_CLIENT,BIGINT,application_train,0.0,307511,
+REGION_RATING_CLIENT_W_CITY,BIGINT,application_train,0.0,307511,
+WEEKDAY_APPR_PROCESS_START,VARCHAR,application_train,0.0,307511,
+HOUR_APPR_PROCESS_START,BIGINT,application_train,0.0,307511,
+REG_REGION_NOT_LIVE_REGION,BIGINT,application_train,0.0,307511,
+REG_REGION_NOT_WORK_REGION,BIGINT,application_train,0.0,307511,
+LIVE_REGION_NOT_WORK_REGION,BIGINT,application_train,0.0,307511,
+REG_CITY_NOT_LIVE_CITY,BIGINT,application_train,0.0,307511,
+REG_CITY_NOT_WORK_CITY,BIGINT,application_train,0.0,307511,
+LIVE_CITY_NOT_WORK_CITY,BIGINT,application_train,0.0,307511,
+ORGANIZATION_TYPE,VARCHAR,application_train,0.0,307511,
+EXT_SOURCE_1,DOUBLE,application_train,56.38,307511,
+EXT_SOURCE_2,DOUBLE,application_train,0.21,307511,
+EXT_SOURCE_3,DOUBLE,application_train,19.83,307511,
+APARTMENTS_AVG,DOUBLE,application_train,50.75,307511,
+BASEMENTAREA_AVG,DOUBLE,application_train,58.52,307511,
+YEARS_BEGINEXPLUATATION_AVG,DOUBLE,application_train,48.78,307511,
+YEARS_BUILD_AVG,DOUBLE,application_train,66.5,307511,
+COMMONAREA_AVG,DOUBLE,application_train,69.87,307511,
+ELEVATORS_AVG,DOUBLE,application_train,53.3,307511,
+ENTRANCES_AVG,DOUBLE,application_train,50.35,307511,
+FLOORSMAX_AVG,DOUBLE,application_train,49.76,307511,
+FLOORSMIN_AVG,DOUBLE,application_train,67.85,307511,
+LANDAREA_AVG,DOUBLE,application_train,59.38,307511,
+LIVINGAPARTMENTS_AVG,DOUBLE,application_train,68.35,307511,
+LIVINGAREA_AVG,DOUBLE,application_train,50.19,307511,
+NONLIVINGAPARTMENTS_AVG,DOUBLE,application_train,69.43,307511,
+NONLIVINGAREA_AVG,DOUBLE,application_train,55.18,307511,
+APARTMENTS_MODE,DOUBLE,application_train,50.75,307511,
+BASEMENTAREA_MODE,DOUBLE,application_train,58.52,307511,
+YEARS_BEGINEXPLUATATION_MODE,DOUBLE,application_train,48.78,307511,
+YEARS_BUILD_MODE,DOUBLE,application_train,66.5,307511,
+COMMONAREA_MODE,DOUBLE,application_train,69.87,307511,
+ELEVATORS_MODE,DOUBLE,application_train,53.3,307511,
+ENTRANCES_MODE,DOUBLE,application_train,50.35,307511,
+FLOORSMAX_MODE,DOUBLE,application_train,49.76,307511,
+FLOORSMIN_MODE,DOUBLE,application_train,67.85,307511,
+LANDAREA_MODE,DOUBLE,application_train,59.38,307511,
+LIVINGAPARTMENTS_MODE,DOUBLE,application_train,68.35,307511,
+LIVINGAREA_MODE,DOUBLE,application_train,50.19,307511,
+NONLIVINGAPARTMENTS_MODE,DOUBLE,application_train,69.43,307511,
+NONLIVINGAREA_MODE,DOUBLE,application_train,55.18,307511,
+APARTMENTS_MEDI,DOUBLE,application_train,50.75,307511,
+BASEMENTAREA_MEDI,DOUBLE,application_train,58.52,307511,
+YEARS_BEGINEXPLUATATION_MEDI,DOUBLE,application_train,48.78,307511,
+YEARS_BUILD_MEDI,DOUBLE,application_train,66.5,307511,
+COMMONAREA_MEDI,DOUBLE,application_train,69.87,307511,
+ELEVATORS_MEDI,DOUBLE,application_train,53.3,307511,
+ENTRANCES_MEDI,DOUBLE,application_train,50.35,307511,
+FLOORSMAX_MEDI,DOUBLE,application_train,49.76,307511,
+FLOORSMIN_MEDI,DOUBLE,application_train,67.85,307511,
+LANDAREA_MEDI,DOUBLE,application_train,59.38,307511,
+LIVINGAPARTMENTS_MEDI,DOUBLE,application_train,68.35,307511,
+LIVINGAREA_MEDI,DOUBLE,application_train,50.19,307511,
+NONLIVINGAPARTMENTS_MEDI,DOUBLE,application_train,69.43,307511,
+NONLIVINGAREA_MEDI,DOUBLE,application_train,55.18,307511,
+FONDKAPREMONT_MODE,VARCHAR,application_train,68.39,307511,
+HOUSETYPE_MODE,VARCHAR,application_train,50.18,307511,
+TOTALAREA_MODE,DOUBLE,application_train,48.27,307511,
+WALLSMATERIAL_MODE,VARCHAR,application_train,50.84,307511,
+EMERGENCYSTATE_MODE,BOOLEAN,application_train,47.4,307511,
+OBS_30_CNT_SOCIAL_CIRCLE,DOUBLE,application_train,0.33,307511,
+DEF_30_CNT_SOCIAL_CIRCLE,DOUBLE,application_train,0.33,307511,
+OBS_60_CNT_SOCIAL_CIRCLE,DOUBLE,application_train,0.33,307511,
+DEF_60_CNT_SOCIAL_CIRCLE,DOUBLE,application_train,0.33,307511,
+DAYS_LAST_PHONE_CHANGE,DOUBLE,application_train,0.0,307511,
+FLAG_DOCUMENT_2,BIGINT,application_train,0.0,307511,
+FLAG_DOCUMENT_3,BIGINT,application_train,0.0,307511,
+FLAG_DOCUMENT_4,BIGINT,application_train,0.0,307511,
+FLAG_DOCUMENT_5,BIGINT,application_train,0.0,307511,
+FLAG_DOCUMENT_6,BIGINT,application_train,0.0,307511,
+FLAG_DOCUMENT_7,BIGINT,application_train,0.0,307511,
+FLAG_DOCUMENT_8,BIGINT,application_train,0.0,307511,
+FLAG_DOCUMENT_9,BIGINT,application_train,0.0,307511,
+FLAG_DOCUMENT_10,BIGINT,application_train,0.0,307511,
+FLAG_DOCUMENT_11,BIGINT,application_train,0.0,307511,
+FLAG_DOCUMENT_12,BIGINT,application_train,0.0,307511,
+FLAG_DOCUMENT_13,BIGINT,application_train,0.0,307511,
+FLAG_DOCUMENT_14,BIGINT,application_train,0.0,307511,
+FLAG_DOCUMENT_15,BIGINT,application_train,0.0,307511,
+FLAG_DOCUMENT_16,BIGINT,application_train,0.0,307511,
+FLAG_DOCUMENT_17,BIGINT,application_train,0.0,307511,
+FLAG_DOCUMENT_18,BIGINT,application_train,0.0,307511,
+FLAG_DOCUMENT_19,BIGINT,application_train,0.0,307511,
+FLAG_DOCUMENT_20,BIGINT,application_train,0.0,307511,
+FLAG_DOCUMENT_21,BIGINT,application_train,0.0,307511,
+AMT_REQ_CREDIT_BUREAU_HOUR,DOUBLE,application_train,13.5,307511,
+AMT_REQ_CREDIT_BUREAU_DAY,DOUBLE,application_train,13.5,307511,
+AMT_REQ_CREDIT_BUREAU_WEEK,DOUBLE,application_train,13.5,307511,
+AMT_REQ_CREDIT_BUREAU_MON,DOUBLE,application_train,13.5,307511,
+AMT_REQ_CREDIT_BUREAU_QRT,DOUBLE,application_train,13.5,307511,
+AMT_REQ_CREDIT_BUREAU_YEAR,DOUBLE,application_train,13.5,307511,
+SK_ID_CURR,BIGINT,application_test,0.0,48744,
+NAME_CONTRACT_TYPE,VARCHAR,application_test,0.0,48744,
+CODE_GENDER,VARCHAR,application_test,0.0,48744,
+FLAG_OWN_CAR,VARCHAR,application_test,0.0,48744,
+FLAG_OWN_REALTY,VARCHAR,application_test,0.0,48744,
+CNT_CHILDREN,BIGINT,application_test,0.0,48744,
+AMT_INCOME_TOTAL,DOUBLE,application_test,0.0,48744,
+AMT_CREDIT,DOUBLE,application_test,0.0,48744,
+AMT_ANNUITY,DOUBLE,application_test,0.05,48744,
+AMT_GOODS_PRICE,DOUBLE,application_test,0.0,48744,
+NAME_TYPE_SUITE,VARCHAR,application_test,1.87,48744,
+NAME_INCOME_TYPE,VARCHAR,application_test,0.0,48744,
+NAME_EDUCATION_TYPE,VARCHAR,application_test,0.0,48744,
+NAME_FAMILY_STATUS,VARCHAR,application_test,0.0,48744,
+NAME_HOUSING_TYPE,VARCHAR,application_test,0.0,48744,
+REGION_POPULATION_RELATIVE,DOUBLE,application_test,0.0,48744,
+DAYS_BIRTH,BIGINT,application_test,0.0,48744,
+DAYS_EMPLOYED,BIGINT,application_test,0.0,48744,
+DAYS_REGISTRATION,DOUBLE,application_test,0.0,48744,
+DAYS_ID_PUBLISH,BIGINT,application_test,0.0,48744,
+OWN_CAR_AGE,DOUBLE,application_test,66.29,48744,
+FLAG_MOBIL,BIGINT,application_test,0.0,48744,
+FLAG_EMP_PHONE,BIGINT,application_test,0.0,48744,
+FLAG_WORK_PHONE,BIGINT,application_test,0.0,48744,
+FLAG_CONT_MOBILE,BIGINT,application_test,0.0,48744,
+FLAG_PHONE,BIGINT,application_test,0.0,48744,
+FLAG_EMAIL,BIGINT,application_test,0.0,48744,
+OCCUPATION_TYPE,VARCHAR,application_test,32.01,48744,
+CNT_FAM_MEMBERS,DOUBLE,application_test,0.0,48744,
+REGION_RATING_CLIENT,BIGINT,application_test,0.0,48744,
+REGION_RATING_CLIENT_W_CITY,BIGINT,application_test,0.0,48744,
+WEEKDAY_APPR_PROCESS_START,VARCHAR,application_test,0.0,48744,
+HOUR_APPR_PROCESS_START,BIGINT,application_test,0.0,48744,
+REG_REGION_NOT_LIVE_REGION,BIGINT,application_test,0.0,48744,
+REG_REGION_NOT_WORK_REGION,BIGINT,application_test,0.0,48744,
+LIVE_REGION_NOT_WORK_REGION,BIGINT,application_test,0.0,48744,
+REG_CITY_NOT_LIVE_CITY,BIGINT,application_test,0.0,48744,
+REG_CITY_NOT_WORK_CITY,BIGINT,application_test,0.0,48744,
+LIVE_CITY_NOT_WORK_CITY,BIGINT,application_test,0.0,48744,
+ORGANIZATION_TYPE,VARCHAR,application_test,0.0,48744,
+EXT_SOURCE_1,DOUBLE,application_test,42.12,48744,
+EXT_SOURCE_2,DOUBLE,application_test,0.02,48744,
+EXT_SOURCE_3,DOUBLE,application_test,17.78,48744,
+APARTMENTS_AVG,DOUBLE,application_test,49.01,48744,
+BASEMENTAREA_AVG,DOUBLE,application_test,56.71,48744,
+YEARS_BEGINEXPLUATATION_AVG,DOUBLE,application_test,46.89,48744,
+YEARS_BUILD_AVG,DOUBLE,application_test,65.28,48744,
+COMMONAREA_AVG,DOUBLE,application_test,68.72,48744,
+ELEVATORS_AVG,DOUBLE,application_test,51.68,48744,
+ENTRANCES_AVG,DOUBLE,application_test,48.37,48744,
+FLOORSMAX_AVG,DOUBLE,application_test,47.84,48744,
+FLOORSMIN_AVG,DOUBLE,application_test,66.61,48744,
+LANDAREA_AVG,DOUBLE,application_test,57.96,48744,
+LIVINGAPARTMENTS_AVG,DOUBLE,application_test,67.25,48744,
+LIVINGAREA_AVG,DOUBLE,application_test,48.32,48744,
+NONLIVINGAPARTMENTS_AVG,DOUBLE,application_test,68.41,48744,
+NONLIVINGAREA_AVG,DOUBLE,application_test,53.51,48744,
+APARTMENTS_MODE,DOUBLE,application_test,49.01,48744,
+BASEMENTAREA_MODE,DOUBLE,application_test,56.71,48744,
+YEARS_BEGINEXPLUATATION_MODE,DOUBLE,application_test,46.89,48744,
+YEARS_BUILD_MODE,DOUBLE,application_test,65.28,48744,
+COMMONAREA_MODE,DOUBLE,application_test,68.72,48744,
+ELEVATORS_MODE,DOUBLE,application_test,51.68,48744,
+ENTRANCES_MODE,DOUBLE,application_test,48.37,48744,
+FLOORSMAX_MODE,DOUBLE,application_test,47.84,48744,
+FLOORSMIN_MODE,DOUBLE,application_test,66.61,48744,
+LANDAREA_MODE,DOUBLE,application_test,57.96,48744,
+LIVINGAPARTMENTS_MODE,DOUBLE,application_test,67.25,48744,
+LIVINGAREA_MODE,DOUBLE,application_test,48.32,48744,
+NONLIVINGAPARTMENTS_MODE,DOUBLE,application_test,68.41,48744,
+NONLIVINGAREA_MODE,DOUBLE,application_test,53.51,48744,
+APARTMENTS_MEDI,DOUBLE,application_test,49.01,48744,
+BASEMENTAREA_MEDI,DOUBLE,application_test,56.71,48744,
+YEARS_BEGINEXPLUATATION_MEDI,DOUBLE,application_test,46.89,48744,
+YEARS_BUILD_MEDI,DOUBLE,application_test,65.28,48744,
+COMMONAREA_MEDI,DOUBLE,application_test,68.72,48744,
+ELEVATORS_MEDI,DOUBLE,application_test,51.68,48744,
+ENTRANCES_MEDI,DOUBLE,application_test,48.37,48744,
+FLOORSMAX_MEDI,DOUBLE,application_test,47.84,48744,
+FLOORSMIN_MEDI,DOUBLE,application_test,66.61,48744,
+LANDAREA_MEDI,DOUBLE,application_test,57.96,48744,
+LIVINGAPARTMENTS_MEDI,DOUBLE,application_test,67.25,48744,
+LIVINGAREA_MEDI,DOUBLE,application_test,48.32,48744,
+NONLIVINGAPARTMENTS_MEDI,DOUBLE,application_test,68.41,48744,
+NONLIVINGAREA_MEDI,DOUBLE,application_test,53.51,48744,
+FONDKAPREMONT_MODE,VARCHAR,application_test,67.28,48744,
+HOUSETYPE_MODE,VARCHAR,application_test,48.46,48744,
+TOTALAREA_MODE,DOUBLE,application_test,46.41,48744,
+WALLSMATERIAL_MODE,VARCHAR,application_test,49.02,48744,
+EMERGENCYSTATE_MODE,BOOLEAN,application_test,45.56,48744,
+OBS_30_CNT_SOCIAL_CIRCLE,DOUBLE,application_test,0.06,48744,
+DEF_30_CNT_SOCIAL_CIRCLE,DOUBLE,application_test,0.06,48744,
+OBS_60_CNT_SOCIAL_CIRCLE,DOUBLE,application_test,0.06,48744,
+DEF_60_CNT_SOCIAL_CIRCLE,DOUBLE,application_test,0.06,48744,
+DAYS_LAST_PHONE_CHANGE,DOUBLE,application_test,0.0,48744,
+FLAG_DOCUMENT_2,BIGINT,application_test,0.0,48744,
+FLAG_DOCUMENT_3,BIGINT,application_test,0.0,48744,
+FLAG_DOCUMENT_4,BIGINT,application_test,0.0,48744,
+FLAG_DOCUMENT_5,BIGINT,application_test,0.0,48744,
+FLAG_DOCUMENT_6,BIGINT,application_test,0.0,48744,
+FLAG_DOCUMENT_7,BIGINT,application_test,0.0,48744,
+FLAG_DOCUMENT_8,BIGINT,application_test,0.0,48744,
+FLAG_DOCUMENT_9,BIGINT,application_test,0.0,48744,
+FLAG_DOCUMENT_10,BIGINT,application_test,0.0,48744,
+FLAG_DOCUMENT_11,BIGINT,application_test,0.0,48744,
+FLAG_DOCUMENT_12,BIGINT,application_test,0.0,48744,
+FLAG_DOCUMENT_13,BIGINT,application_test,0.0,48744,
+FLAG_DOCUMENT_14,BIGINT,application_test,0.0,48744,
+FLAG_DOCUMENT_15,BIGINT,application_test,0.0,48744,
+FLAG_DOCUMENT_16,BIGINT,application_test,0.0,48744,
+FLAG_DOCUMENT_17,BIGINT,application_test,0.0,48744,
+FLAG_DOCUMENT_18,BIGINT,application_test,0.0,48744,
+FLAG_DOCUMENT_19,BIGINT,application_test,0.0,48744,
+FLAG_DOCUMENT_20,BIGINT,application_test,0.0,48744,
+FLAG_DOCUMENT_21,BIGINT,application_test,0.0,48744,
+AMT_REQ_CREDIT_BUREAU_HOUR,DOUBLE,application_test,12.41,48744,
+AMT_REQ_CREDIT_BUREAU_DAY,DOUBLE,application_test,12.41,48744,
+AMT_REQ_CREDIT_BUREAU_WEEK,DOUBLE,application_test,12.41,48744,
+AMT_REQ_CREDIT_BUREAU_MON,DOUBLE,application_test,12.41,48744,
+AMT_REQ_CREDIT_BUREAU_QRT,DOUBLE,application_test,12.41,48744,
+AMT_REQ_CREDIT_BUREAU_YEAR,DOUBLE,application_test,12.41,48744,
+SK_ID_CURR,BIGINT,bureau,0.0,1716428,"ID of loan in our sample - one loan in our sample can have 0,1,2 or more related previous credits in credit bureau "
+SK_ID_BUREAU,BIGINT,bureau,0.0,1716428,
+CREDIT_ACTIVE,VARCHAR,bureau,0.0,1716428,Status of the Credit Bureau (CB) reported credits
+CREDIT_CURRENCY,VARCHAR,bureau,0.0,1716428,Recoded currency of the Credit Bureau credit
+DAYS_CREDIT,BIGINT,bureau,0.0,1716428,How many days before current application did client apply for Credit Bureau credit
+CREDIT_DAY_OVERDUE,BIGINT,bureau,0.0,1716428,Number of days past due on CB credit at the time of application for related loan in our sample
+DAYS_CREDIT_ENDDATE,DOUBLE,bureau,6.15,1716428,Remaining duration of CB credit (in days) at the time of application in Home Credit
+DAYS_ENDDATE_FACT,DOUBLE,bureau,36.92,1716428,Days since CB credit ended at the time of application in Home Credit (only for closed credit)
+AMT_CREDIT_MAX_OVERDUE,DOUBLE,bureau,65.51,1716428,Maximal amount overdue on the Credit Bureau credit so far (at application date of loan in our sample)
+CNT_CREDIT_PROLONG,BIGINT,bureau,0.0,1716428,How many times was the Credit Bureau credit prolonged
+AMT_CREDIT_SUM,DOUBLE,bureau,0.0,1716428,Current credit amount for the Credit Bureau credit
+AMT_CREDIT_SUM_DEBT,DOUBLE,bureau,15.01,1716428,Current debt on Credit Bureau credit
+AMT_CREDIT_SUM_LIMIT,DOUBLE,bureau,34.48,1716428,Current credit limit of credit card reported in Credit Bureau
+AMT_CREDIT_SUM_OVERDUE,DOUBLE,bureau,0.0,1716428,Current amount overdue on Credit Bureau credit
+CREDIT_TYPE,VARCHAR,bureau,0.0,1716428,"Type of Credit Bureau credit (Car, cash,...)"
+DAYS_CREDIT_UPDATE,BIGINT,bureau,0.0,1716428,How many days before loan application did last information about the Credit Bureau credit come
+AMT_ANNUITY,DOUBLE,bureau,71.47,1716428,Annuity of the Credit Bureau credit
+SK_ID_BUREAU,BIGINT,bureau_balance,0.0,27299925,
+MONTHS_BALANCE,BIGINT,bureau_balance,0.0,27299925,Month of balance relative to application date (-1 means the freshest balance date)
+STATUS,VARCHAR,bureau_balance,0.0,27299925,"Status of Credit Bureau loan during the month (active, closed, DPD0-30, [C means closed, X means status unknown, 0 means no DPD, 1 means maximal did during month between 1-30, 2 means DPD 31-60, 5 means DPD 120+ or sold or written off ] )"
+SK_ID_PREV,BIGINT,previous_application,0.0,1670214,
+SK_ID_CURR,BIGINT,previous_application,0.0,1670214,ID of loan in our sample
+NAME_CONTRACT_TYPE,VARCHAR,previous_application,0.0,1670214,"Contract product type (Cash loan, consumer loan [POS] ,...) of the previous application"
+AMT_ANNUITY,DOUBLE,previous_application,22.29,1670214,Annuity of previous application
+AMT_APPLICATION,DOUBLE,previous_application,0.0,1670214,For how much credit did client ask on the previous application
+AMT_CREDIT,DOUBLE,previous_application,0.0,1670214,"Final credit amount on the previous application. This differs from AMT_APPLICATION in a way that the AMT_APPLICATION is the amount for which the client initially applied for, but during our approval process he could have received different amount - AMT_CREDIT"
+AMT_DOWN_PAYMENT,DOUBLE,previous_application,53.64,1670214,Down payment on the previous application
+AMT_GOODS_PRICE,DOUBLE,previous_application,23.08,1670214,Goods price of good that client asked for (if applicable) on the previous application
+WEEKDAY_APPR_PROCESS_START,VARCHAR,previous_application,0.0,1670214,On which day of the week did the client apply for previous application
+HOUR_APPR_PROCESS_START,BIGINT,previous_application,0.0,1670214,Approximately at what day hour did the client apply for the previous application
+FLAG_LAST_APPL_PER_CONTRACT,VARCHAR,previous_application,0.0,1670214,Flag if it was last application for the previous contract. Sometimes by mistake of client or our clerk there could be more applications for one single contract
+NFLAG_LAST_APPL_IN_DAY,BIGINT,previous_application,0.0,1670214,Flag if the application was the last application per day of the client. Sometimes clients apply for more applications a day. Rarely it could also be error in our system that one application is in the database twice
+RATE_DOWN_PAYMENT,DOUBLE,previous_application,53.64,1670214,Down payment rate normalized on previous credit
+RATE_INTEREST_PRIMARY,DOUBLE,previous_application,99.64,1670214,Interest rate normalized on previous credit
+RATE_INTEREST_PRIVILEGED,DOUBLE,previous_application,99.64,1670214,Interest rate normalized on previous credit
+NAME_CASH_LOAN_PURPOSE,VARCHAR,previous_application,0.0,1670214,Purpose of the cash loan
+NAME_CONTRACT_STATUS,VARCHAR,previous_application,0.0,1670214,"Contract status (approved, cancelled, ...) of previous application"
+DAYS_DECISION,BIGINT,previous_application,0.0,1670214,Relative to current application when was the decision about previous application made
+NAME_PAYMENT_TYPE,VARCHAR,previous_application,0.0,1670214,Payment method that client chose to pay for the previous application
+CODE_REJECT_REASON,VARCHAR,previous_application,0.0,1670214,Why was the previous application rejected
+NAME_TYPE_SUITE,VARCHAR,previous_application,49.12,1670214,Who accompanied client when applying for the previous application
+NAME_CLIENT_TYPE,VARCHAR,previous_application,0.0,1670214,Was the client old or new client when applying for the previous application
+NAME_GOODS_CATEGORY,VARCHAR,previous_application,0.0,1670214,What kind of goods did the client apply for in the previous application
+NAME_PORTFOLIO,VARCHAR,previous_application,0.0,1670214,"Was the previous application for CASH, POS, CAR, "
+NAME_PRODUCT_TYPE,VARCHAR,previous_application,0.0,1670214,Was the previous application x-sell o walk-in
+CHANNEL_TYPE,VARCHAR,previous_application,0.0,1670214,Through which channel we acquired the client on the previous application
+SELLERPLACE_AREA,BIGINT,previous_application,0.0,1670214,Selling area of seller place of the previous application
+NAME_SELLER_INDUSTRY,VARCHAR,previous_application,0.0,1670214,The industry of the seller
+CNT_PAYMENT,DOUBLE,previous_application,22.29,1670214,Term of previous credit at application of the previous application
+NAME_YIELD_GROUP,VARCHAR,previous_application,0.0,1670214,Grouped interest rate into small medium and high of the previous application
+PRODUCT_COMBINATION,VARCHAR,previous_application,0.02,1670214,Detailed product combination of the previous application
+DAYS_FIRST_DRAWING,DOUBLE,previous_application,40.3,1670214,Relative to application date of current application when was the first disbursement of the previous application
+DAYS_FIRST_DUE,DOUBLE,previous_application,40.3,1670214,Relative to application date of current application when was the first due supposed to be of the previous application
+DAYS_LAST_DUE_1ST_VERSION,DOUBLE,previous_application,40.3,1670214,Relative to application date of current application when was the first due of the previous application
+DAYS_LAST_DUE,DOUBLE,previous_application,40.3,1670214,Relative to application date of current application when was the last due date of the previous application
+DAYS_TERMINATION,DOUBLE,previous_application,40.3,1670214,Relative to application date of current application when was the expected termination of the previous application
+NFLAG_INSURED_ON_APPROVAL,DOUBLE,previous_application,40.3,1670214,Did the client requested insurance during the previous application
+SK_ID_PREV,BIGINT,POS_CASH_balance,0.0,10001358,
+SK_ID_CURR,BIGINT,POS_CASH_balance,0.0,10001358,ID of loan in our sample
+MONTHS_BALANCE,BIGINT,POS_CASH_balance,0.0,10001358,"Month of balance relative to application date (-1 means the information to the freshest monthly snapshot, 0 means the information at application - often it will be the same as -1 as many banks are not updating the information to Credit Bureau regularly )"
+CNT_INSTALMENT,DOUBLE,POS_CASH_balance,0.26,10001358,Term of previous credit (can change over time)
+CNT_INSTALMENT_FUTURE,DOUBLE,POS_CASH_balance,0.26,10001358,Installments left to pay on the previous credit
+NAME_CONTRACT_STATUS,VARCHAR,POS_CASH_balance,0.0,10001358,Contract status during the month
+SK_DPD,BIGINT,POS_CASH_balance,0.0,10001358,DPD (days past due) during the month of previous credit
+SK_DPD_DEF,BIGINT,POS_CASH_balance,0.0,10001358,DPD during the month with tolerance (debts with low loan amounts are ignored) of the previous credit
+SK_ID_PREV,BIGINT,installments_payments,0.0,13605401,
+SK_ID_CURR,BIGINT,installments_payments,0.0,13605401,ID of loan in our sample
+NUM_INSTALMENT_VERSION,DOUBLE,installments_payments,0.0,13605401,Version of installment calendar (0 is for credit card) of previous credit. Change of installment version from month to month signifies that some parameter of payment calendar has changed
+NUM_INSTALMENT_NUMBER,BIGINT,installments_payments,0.0,13605401,On which installment we observe payment
+DAYS_INSTALMENT,DOUBLE,installments_payments,0.0,13605401,When the installment of previous credit was supposed to be paid (relative to application date of current loan)
+DAYS_ENTRY_PAYMENT,DOUBLE,installments_payments,0.02,13605401,When was the installments of previous credit paid actually (relative to application date of current loan)
+AMT_INSTALMENT,DOUBLE,installments_payments,0.0,13605401,What was the prescribed installment amount of previous credit on this installment
+AMT_PAYMENT,DOUBLE,installments_payments,0.02,13605401,What the client actually paid on previous credit on this installment
+SK_ID_PREV,BIGINT,credit_card_balance,0.0,3840312,
+SK_ID_CURR,BIGINT,credit_card_balance,0.0,3840312,ID of loan in our sample
+MONTHS_BALANCE,BIGINT,credit_card_balance,0.0,3840312,Month of balance relative to application date (-1 means the freshest balance date)
+AMT_BALANCE,DOUBLE,credit_card_balance,0.0,3840312,Balance during the month of previous credit
+AMT_CREDIT_LIMIT_ACTUAL,BIGINT,credit_card_balance,0.0,3840312,Credit card limit during the month of the previous credit
+AMT_DRAWINGS_ATM_CURRENT,DOUBLE,credit_card_balance,19.52,3840312,Amount drawing at ATM during the month of the previous credit
+AMT_DRAWINGS_CURRENT,DOUBLE,credit_card_balance,0.0,3840312,Amount drawing during the month of the previous credit
+AMT_DRAWINGS_OTHER_CURRENT,DOUBLE,credit_card_balance,19.52,3840312,Amount of other drawings during the month of the previous credit
+AMT_DRAWINGS_POS_CURRENT,DOUBLE,credit_card_balance,19.52,3840312,Amount drawing or buying goods during the month of the previous credit
+AMT_INST_MIN_REGULARITY,DOUBLE,credit_card_balance,7.95,3840312,Minimal installment for this month of the previous credit
+AMT_PAYMENT_CURRENT,DOUBLE,credit_card_balance,20.0,3840312,How much did the client pay during the month on the previous credit
+AMT_PAYMENT_TOTAL_CURRENT,DOUBLE,credit_card_balance,0.0,3840312,How much did the client pay during the month in total on the previous credit
+AMT_RECEIVABLE_PRINCIPAL,DOUBLE,credit_card_balance,0.0,3840312,Amount receivable for principal on the previous credit
+AMT_RECIVABLE,DOUBLE,credit_card_balance,0.0,3840312,Amount receivable on the previous credit
+AMT_TOTAL_RECEIVABLE,DOUBLE,credit_card_balance,0.0,3840312,Total amount receivable on the previous credit
+CNT_DRAWINGS_ATM_CURRENT,DOUBLE,credit_card_balance,19.52,3840312,Number of drawings at ATM during this month on the previous credit
+CNT_DRAWINGS_CURRENT,BIGINT,credit_card_balance,0.0,3840312,Number of drawings during this month on the previous credit
+CNT_DRAWINGS_OTHER_CURRENT,DOUBLE,credit_card_balance,19.52,3840312,Number of other drawings during this month on the previous credit
+CNT_DRAWINGS_POS_CURRENT,DOUBLE,credit_card_balance,19.52,3840312,Number of drawings for goods during this month on the previous credit
+CNT_INSTALMENT_MATURE_CUM,DOUBLE,credit_card_balance,7.95,3840312,Number of paid installments on the previous credit
+NAME_CONTRACT_STATUS,VARCHAR,credit_card_balance,0.0,3840312,"Contract status (active signed,...) on the previous credit"
+SK_DPD,BIGINT,credit_card_balance,0.0,3840312,DPD (Days past due) during the month on the previous credit
+SK_DPD_DEF,BIGINT,credit_card_balance,0.0,3840312,DPD (Days past due) during the month with tolerance (debts with low loan amounts are ignored) of the previous credit

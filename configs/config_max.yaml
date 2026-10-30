@@ -1,0 +1,38 @@
+# MAX-QUALITY profile (run AFTER the fast baseline). Select with env CREDITIQ_CONFIG=config_max.yaml
+# Differences vs config.yaml: full development set in CV, Random Forest dropped (slow, rarely wins here),
+# LightGBM tuned with Optuna (incl. n_estimators). Expect ~1-1.5 h on free Colab CPU.
+seed: 42
+split:
+  test_size: 0.20
+  calibration_size: 0.25
+cv:
+  folds: 5
+  sample_n: null           # use the whole development set
+models: [dummy, logreg, xgboost, lightgbm]
+selected_model: auto
+use_smote: false
+tuning:
+  optuna_trials: 30        # tunes LightGBM on an 80k stratified subsample, 3-fold
+features:
+  max_missing_frac: 0.75
+  corr_prune_threshold: 0.98
+  exclude_from_model: [CODE_GENDER]
+risk_bands:
+  LOW: [0.00, 0.05]
+  MEDIUM: [0.05, 0.15]
+  HIGH: [0.15, 0.30]
+  VERY_HIGH: [0.30, 1.01]
+recommendations:
+  LOW: Further assessment
+  MEDIUM: Manual review
+  HIGH: Enhanced review
+  VERY_HIGH: Escalated review
+ecl:
+  lgd_scenarios: {optimistic: 0.25, base: 0.45, conservative: 0.65}
+monitoring:
+  psi_warn: 0.10
+  psi_alert: 0.25
+  missing_shift_warn: 0.05
+  mean_pd_shift_warn: 0.20
+fairness:
+  min_group_size: 300

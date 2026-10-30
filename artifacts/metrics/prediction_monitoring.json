@@ -1,0 +1,20 @@
+{
+  "mean_pd_ref": 0.08162870461626842,
+  "mean_pd_cur": 0.08011977348841133,
+  "mean_pd_relative_shift": -0.018485300421591702,
+  "pd_psi": 0.000770347099038096,
+  "band_share_ref": {
+    "LOW": 0.5095,
+    "MEDIUM": 0.3452,
+    "HIGH": 0.1068,
+    "VERY_HIGH": 0.0385
+  },
+  "band_share_cur": {
+    "LOW": 0.5169991707721574,
+    "MEDIUM": 0.3421459115815489,
+    "HIGH": 0.10438515194380762,
+    "VERY_HIGH": 0.03646976570248606
+  },
+  "alert": "OK",
+  "note": "Calibration/performance monitoring requires realised outcomes for the current period; not computed without labels."
+}
